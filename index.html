@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samhita - Learn Sanskrit</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="vanta-bg"></div>
+    <div class="overlay"></div>
+
+    <header>
+        <div class="mascot-circle">MASCOT</div>
+        <div class="logo-text">SAMHITA</div>
+        <nav>
+            <a href="#" onclick="showSection('home')">Home</a>
+            <a href="#" onclick="showSection('alphabets')">Alphabets</a>
+            <a href="#" onclick="showSection('profile')">Profile</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="home" class="section-content active">
+            <h2>Prārambha (Lessons)</h2>
+            <div class="path-container">
+                <div class="node">१</div>
+                <div class="node">२</div>
+                <div class="node">३</div>
+            </div>
+        </div>
+
+        <div id="alphabets" class="section-content">
+            <h2>Varṇamālā (Alphabets)</h2>
+            <div class="alphabet-grid">
+                <div class="char-card">अ</div><div class="char-card">आ</div><div class="char-card">इ</div>
+                <div class="char-card">ई</div><div class="char-card">उ</div><div class="char-card">ऊ</div>
+            </div>
+        </div>
+
+        <div id="profile" class="section-content">
+            <h2>Your Progress</h2>
+            <p><strong>Scholar:</strong> Yuvika</p>
+        </div>
+    </main>
+
+    <footer>
+        Built by Yuvika Varun
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
